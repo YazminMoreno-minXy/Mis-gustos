@@ -142,11 +142,10 @@ body:has(:not(:root)) .scrollSubir {
     opacity: 1;
 }
 
-/* Ajustar el documento en otras pantallas */
-
+/* Ajustar el documento en otras pantallas menor a 800 px*/
 @media (max-width: 800px) {
     .navbar {
-        flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
+        display: flex; /* Cambia la dirección a columna en pantallas pequeñas */
     }
 
     .navegador a {
