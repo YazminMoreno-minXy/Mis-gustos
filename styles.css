@@ -141,3 +141,27 @@ body:has(:not(:root)) .scrollSubir {
     display: block;
     opacity: 1;
 }
+
+/* Ajustar el documento en otras pantallas */
+@media(max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+    }
+    
+    .navegador a {
+        padding: 10px;
+        font-size: 1em;
+    }
+
+    h1 {
+        font-size: 3em;
+    }
+
+    h2 {
+        font-size: 2em;
+    }
+
+    li {
+        font-size: 1.2em;
+    }
+}
