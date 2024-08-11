@@ -144,7 +144,7 @@ body:has(:not(:root)) .scrollSubir {
 
 /* Ajustar el documento en otras pantallas */
 
-@media (max-width: 600px) {
+@media (max-width: 800px) {
     .navbar {
         flex-direction: column; /* Cambia la dirección a columna en pantallas pequeñas */
     }
